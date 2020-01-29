@@ -1,5 +1,5 @@
 # Neural#DNF
-This is the code repository for the Neural#DNF system, presented in the [paper](https://arxiv.org/pdf/1904.02688.pdf) "Learning to Reason: Leveraging Neural Networks for Approximate Weighted Model Counting", and published in AAAI20. It contains code for training and building the graph neural network, generating random DNF formulas with desired properties, and evaluating the network as described in the paper. It also contains the final training weights in the netParams_2 subdirectory.
+This is the code repository for the neural model counting system Neural#DNF, presented in the AAAI-20 [paper](https://arxiv.org/pdf/1904.02688.pdf) "Learning to Reason: Leveraging Neural Networks for Approximate Weighted Model Counting". It contains code for training and building the graph neural network, generating random DNF formulas with desired properties, and evaluating the network as described in the paper. It also contains the final training weights in the netParams_2 subdirectory.
 
 ## Requirements
 - TensorFlow >=1.12 and the corresponding NumPy version
@@ -31,8 +31,8 @@ To generate data according to the paper's standard proportions, run
 
 ```python generateData.py```
 
-Additional Options for generation are also provided, and a list of these can be found using the `-h` flag.
-*Note:* Generation proportions can be changed by altering the three proportions arrays in the generateData.py script (dFS (distinct File Sizes), nCD (num clauses distribution) and cWD (clause Width Distribution)).
+Additional options for generation are also provided, and a list of these can be found using the `-h` flag.
+*Note:* Generation proportions can be changed by altering the three proportions arrays in the generateData.py script (dFS (distinct File Sizes), nCD (number (of) Clauses Distribution) and cWD (clause Width Distribution)).
 
 ### Training Neural#DNF
 A single epoch of training on a training set can be run using the command
