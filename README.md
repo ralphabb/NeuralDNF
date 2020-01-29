@@ -45,7 +45,7 @@ The number of epochs can be changed using the `-nbTrainingEpochs X` flag, and fu
 If you make use of this code, or its accompanying [paper](https://arxiv.org/pdf/1904.02688.pdf), please cite this work as follows:
 
 ```
-@inproceedings{LearningToReason,
+@inproceedings{ACL-AAAI20,
   title={Learning to {R}eason: Leveraging Neural Networks for Approximate {DNF} Counting},
   author    = {Ralph Abboud and
                 {\.I}smail {\.I}lkan Ceylan and
